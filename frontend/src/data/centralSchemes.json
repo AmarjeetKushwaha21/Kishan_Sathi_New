@@ -1,0 +1,350 @@
+[
+  {
+    "id": "CS-001",
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "category": "Farmer Benefits",
+    "shortDescription": "Direct income support of ₹6,000 per year in three equal installments of ₹2,000 directly into farmers' bank accounts.",
+    "benefits": "₹6,000/year direct cash transfer in 3 installments (every 4 months)",
+    "benefitAmount": "₹6,000 / year",
+    "eligibility": [
+      "All landholding farmer families with cultivable landholding in their names",
+      "Valid Aadhaar card linked with bank account",
+      "Active bank account with DBT (Direct Benefit Transfer) enabled",
+      "Land record (Khata/Khasra) in applicant's name"
+    ],
+    "ineligibility": [
+      "Institutional landholders",
+      "Farmers holding constitutional posts or retired government employees with pension > ₹10,000/month",
+      "Income tax payers in last assessment year"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land Ownership Documents (Khasra/Khatauni)",
+      "Bank Passbook / Cancelled Cheque",
+      "Mobile Number linked to Aadhaar"
+    ],
+    "applicationProcess": [
+      "Step 1: Fill out the online application with Aadhaar and mobile number verification.",
+      "Step 2: Enter land details including State, District, Sub-District, Block, and Village with Survey/Khasra numbers.",
+      "Step 3: Upload Aadhaar, Land Record, and Bank Passbook copies.",
+      "Step 4: Physical verification by State Revenue / Agriculture nodal officer.",
+      "Step 5: Direct credit to bank account upon approval via PFMS."
+    ],
+    "importantInfo": "eKYC is mandatory for all registered farmers via OTP or Biometric authentication. Installments are credited directly on the 1st week of April, August, and December.",
+    "applicationStatus": "Open",
+    "deadline": "Open All Year",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "tags": ["Income Support", "Central Scheme", "DBT", "PM-KISAN"]
+  },
+  {
+    "id": "CS-002",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "category": "Crop Insurance",
+    "shortDescription": "Comprehensive crop insurance covering non-preventable natural risks from pre-sowing to post-harvest stages.",
+    "benefits": "Financial support for crop failure due to drought, flood, pests, or unseasonal weather. Maximum premium rate: 2% for Kharif, 1.5% for Rabi, 5% for Commercial/Horticultural crops.",
+    "benefitAmount": "Up to 100% sum insured payout based on yield loss assessment",
+    "eligibility": [
+      "All farmers including sharecroppers and tenant farmers growing notified crops in notified areas",
+      "Both loanee (KCC holders) and non-loanee farmers are eligible",
+      "Must have sown the crop or intended to sow within the notified cutoff date"
+    ],
+    "ineligibility": [
+      "Losses due to war, nuclear risks, malicious damage, or preventable farmer negligence"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land Possession Certificate (LPC) / Land Revenue Receipt",
+      "Sowing Certificate issued by Patwari / Village Agriculture Worker",
+      "Bank Account Details (IFSC, Account Number)",
+      "Tenant Agreement (for non-owner cultivators)"
+    ],
+    "applicationProcess": [
+      "Step 1: Select season (Kharif / Rabi), State, District, and Crop.",
+      "Step 2: Calculate premium using the automated premium calculator.",
+      "Step 3: Upload Land Record and Sowing Certificate.",
+      "Step 4: Pay farmer's subsidized premium share (1.5% - 2%) online or via CSC.",
+      "Step 5: Insurance policy generated with unique Policy Number for claim tracking."
+    ],
+    "importantInfo": "Report localized crop damage (cyclone, hailstorm, inundation) within 72 hours via the Crop Insurance App or Kisan Call Center (1800-180-1551).",
+    "applicationStatus": "Open for Rabi Season",
+    "deadline": "31st December 2026",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "tags": ["Insurance", "Risk Protection", "Kharif", "Rabi"]
+  },
+  {
+    "id": "CS-003",
+    "name": "Kisan Credit Card (KCC) Scheme",
+    "category": "Agricultural Loans",
+    "shortDescription": "Timely short-term credit for crop cultivation, post-harvest expenses, and farm asset maintenance at subsidized interest rates.",
+    "benefits": "Loan limit up to ₹3,00,000 at an effective interest rate of 4% per annum (with 3% prompt repayment incentive). Collateral-free loan up to ₹1,60,000.",
+    "benefitAmount": "Credit limit up to ₹3,00,000 @ 4% p.a.",
+    "eligibility": [
+      "Individual farmers / joint borrowers who are owner cultivators",
+      "Tenant farmers, oral lessees, and sharecroppers",
+      "Self Help Groups (SHGs) or Joint Liability Groups (JLGs) of farmers",
+      "Farmers involved in Animal Husbandry and Fisheries"
+    ],
+    "ineligibility": [
+      "Defaulters of prior institutional loans without restructuring"
+    ],
+    "requiredDocuments": [
+      "Duly completed KCC Application Form",
+      "Identity & Address Proof (Aadhaar / Voter ID / PAN)",
+      "Land Record Documents certified by revenue authority",
+      "Cropping pattern details for current agricultural year",
+      "Two passport size photographs"
+    ],
+    "applicationProcess": [
+      "Step 1: Submit single-page KCC application form online or at any commercial / cooperative bank branch.",
+      "Step 2: Bank verifies land records and calculates scale of finance based on cropping area.",
+      "Step 3: Sanction within 14 days without processing charges for loans up to ₹3 Lakhs.",
+      "Step 4: Receive RuPay Kisan Card for ATM and PoS transactions."
+    ],
+    "importantInfo": "KCC credit comes with automatic personal accident insurance cover of ₹50,000 for death/permanent disability and ₹25,000 for other risks.",
+    "applicationStatus": "Open",
+    "deadline": "Open All Year",
+    "ministry": "Ministry of Finance / NABARD",
+    "tags": ["Credit", "Low Interest Loan", "Subsidized", "NABARD"]
+  },
+  {
+    "id": "CS-004",
+    "name": "Sub-Mission on Agricultural Mechanization (SMAM)",
+    "category": "Farm Equipment",
+    "shortDescription": "Financial subsidy up to 50% for purchasing modern farm machinery, tractors, power tillers, rotavators, and harvesters.",
+    "benefits": "40% to 50% subsidy (up to ₹1.25 Lakhs - ₹5.00 Lakhs depending on equipment) on approved farm machinery and implements.",
+    "benefitAmount": "40% - 50% capital subsidy (up to ₹5,00,000)",
+    "eligibility": [
+      "Small and marginal farmers, SC/ST, women, and North-Eastern state farmers receive priority & higher subsidy (50%)",
+      "Individual farmers who have not availed machinery subsidy in the last 5 years",
+      "Custom Hiring Centers (CHCs) and Farmer Producer Organizations (FPOs)"
+    ],
+    "ineligibility": [
+      "Applicants who have already claimed equipment subsidy under SMAM/RKVY within past 5 years for same machine type"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land Ownership Document (7/12 extract / Khasra-Khatauni)",
+      "Bank Passbook showing DBT account",
+      "Quotation / Proforma Invoice from authorized machinery dealer",
+      "Caste Certificate (if applicable for enhanced subsidy)"
+    ],
+    "applicationProcess": [
+      "Step 1: Register on the SMAM portal / DBT Agriculture portal with Aadhaar.",
+      "Step 2: Select desired machine model and approved manufacturer/dealer.",
+      "Step 3: Upload proforma invoice and land documents.",
+      "Step 4: Department issue permit / sanction order.",
+      "Step 5: Purchase machinery and submit serial number & GPS geo-tagged photo for DBT subsidy release."
+    ],
+    "importantInfo": "Direct verification through portal with real-time tracking of subsidy release directly to the farmer's linked bank account.",
+    "applicationStatus": "Open",
+    "deadline": "31st March 2027",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "tags": ["Tractor Subsidy", "Mechanization", "SMAM", "Equipment"]
+  },
+  {
+    "id": "CS-005",
+    "name": "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) - Per Drop More Crop",
+    "category": "Irrigation",
+    "shortDescription": "Promoting micro-irrigation technologies such as Drip and Sprinkler systems to enhance water use efficiency and farm productivity.",
+    "benefits": "55% subsidy for Small and Marginal farmers; 45% subsidy for other farmers on installation costs of Drip and Sprinkler irrigation units.",
+    "benefitAmount": "Up to 55% subsidy on Micro-Irrigation setups",
+    "eligibility": [
+      "All farmers owning cultivable land with an assured water source (tube well, borewell, canal, farm pond)",
+      "Members of Water User Associations (WUAs) and cooperative farming societies",
+      "Minimum cultivable plot size of 0.2 hectare"
+    ],
+    "ineligibility": [
+      "Fields without any primary water source for running micro-irrigation systems"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land Ownership Paper (RoR / Khasra)",
+      "Proof of Water Source and Electricity connection / Solar pump",
+      "Soil & Water Testing Report (optional/recommended)",
+      "Bank Account details"
+    ],
+    "applicationProcess": [
+      "Step 1: Apply online with land details and water source verification.",
+      "Step 2: Field survey by the District Agriculture/Horticulture Officer and empanelled micro-irrigation company.",
+      "Step 3: Technical design estimate and work order generation.",
+      "Step 4: Installation of drip/sprinkler system with physical inspection.",
+      "Step 5: Direct subsidy transfer to beneficiary account or vendor adjustment as per state policy."
+    ],
+    "importantInfo": "Micro-irrigation saves up to 40% water, increases fertilizer efficiency by 30%, and boosts crop productivity by up to 25%.",
+    "applicationStatus": "Open",
+    "deadline": "Open All Year",
+    "ministry": "Department of Agriculture and Farmers Welfare",
+    "tags": ["Drip Irrigation", "Water Saving", "Sprinkler", "PMKSY"]
+  },
+  {
+    "id": "CS-006",
+    "name": "Paramparagat Krishi Vikas Yojana (PKVY)",
+    "category": "Fertilizers",
+    "shortDescription": "Promoting cluster-based organic farming with PGS certification, bio-fertilizers, and direct farmer-consumer marketing support.",
+    "benefits": "Financial assistance of ₹50,000 per hectare for 3 years, of which ₹31,000 is given directly for organic inputs (seeds, bio-fertilizers, bio-pesticides).",
+    "benefitAmount": "₹50,000 / hectare (over 3 years)",
+    "eligibility": [
+      "Farmers willing to form clusters of 20 or more farmers covering minimum 20 hectares / 50 acres",
+      "Individual farmers adopting PGS-India organic certification standards",
+      "No chemical fertilizer or synthetic pesticide usage on enrolled land"
+    ],
+    "ineligibility": [
+      "Farmers already claiming chemical fertilizer support for the enrolled parcel"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land Records with boundary demarcation",
+      "Cluster Membership Agreement / Resolution",
+      "Soil Test Baseline Report",
+      "Bank Passbook"
+    ],
+    "applicationProcess": [
+      "Step 1: Form a local cluster of 20+ farmers and register on Jaivik Kheti portal.",
+      "Step 2: Soil sampling and baseline organic conversion documentation.",
+      "Step 3: Receive 1st installment for bio-inputs and composting units.",
+      "Step 4: Periodic PGS peer reviews and organic certification issuance.",
+      "Step 5: Marketing linkages on the national organic agricultural portal."
+    ],
+    "importantInfo": "Products receive official PGS-India Green and PGS-India Organic labels, fetching premium prices in retail markets.",
+    "applicationStatus": "Open",
+    "deadline": "Open for New Clusters",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "tags": ["Organic Farming", "Bio-Fertilizer", "PKVY", "Cluster Support"]
+  },
+  {
+    "id": "CS-007",
+    "name": "National Mission on High Yielding Certified Seeds (Sub-Mission on Seeds)",
+    "category": "Seeds",
+    "shortDescription": "Subsidized distribution of certified high-yielding, climate-resilient, and bio-fortified crop seeds to smallholder farmers.",
+    "benefits": "50% to 75% subsidy on foundation and certified seeds of Cereals, Pulses, Oilseeds, and Millets distributed through state seed corporations.",
+    "benefitAmount": "50% - 75% seed cost subsidy",
+    "eligibility": [
+      "Small and marginal farmers holding less than 2 hectares of cultivable land",
+      "Farmers residing in notified seed village programme districts",
+      "Must have active crop sowing registration in state portal"
+    ],
+    "ineligibility": [
+      "Commercial private seed multiplier firms applying as individual farmers"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Kisan ID / Farmer Registration Number",
+      "Land Record details",
+      "Seed requirement indent from Block Agriculture Office"
+    ],
+    "applicationProcess": [
+      "Step 1: Register crop sowing plan on state seed portal.",
+      "Step 2: Select crop variety and seed quantity (max 2 bags per farmer).",
+      "Step 3: Receive seed allocation coupon with unique QR code.",
+      "Step 4: Collect certified seed bags from nearest Primary Agricultural Credit Society (PACS) or Block Seed Store at subsidized price."
+    ],
+    "importantInfo": "Certified seeds undergo rigorous germination tests (minimum 85% germination rate guaranteed) and are pre-treated with bio-fungicides.",
+    "applicationStatus": "Open for Kharif Sowing",
+    "deadline": "15th July 2026",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "tags": ["Certified Seeds", "High Yield", "Subsidized", "Pulses & Cereals"]
+  },
+  {
+    "id": "CS-008",
+    "name": "Agriculture Infrastructure Fund (AIF)",
+    "category": "Subsidies",
+    "shortDescription": "Medium-long term debt financing facility for investment in post-harvest management infrastructure and community farming assets.",
+    "benefits": "3% per annum interest subvention on loans up to ₹2 Crore for a maximum period of 7 years, along with Credit Guarantee Fund Trust (CGTMSE) coverage.",
+    "benefitAmount": "3% interest subsidy on loans up to ₹2 Crore",
+    "eligibility": [
+      "Farmers, Primary Agricultural Credit Societies (PACS), Marketing Cooperative Societies",
+      "Farmer Producer Organizations (FPOs), Self Help Groups (SHGs), Joint Liability Groups (JLGs)",
+      "Agri-entrepreneurs, Startups, and Central/State agency sponsored PPP projects"
+    ],
+    "ineligibility": [
+      "Projects without viable DPR (Detailed Project Report) or unrelated to post-harvest infrastructure"
+    ],
+    "requiredDocuments": [
+      "Detailed Project Report (DPR) of warehouse / cold storage / sorting unit",
+      "Land Title / Lease Agreement (minimum 10 years)",
+      "KYC Documents of Applicant / Enterprise",
+      "Audited Financial Statements (for existing entities)",
+      "Bank Loan Sanction Letter"
+    ],
+    "applicationProcess": [
+      "Step 1: Register on the AIF Portal and submit DPR and basic project details.",
+      "Step 2: Ministry verifies project eligibility within 7 business days.",
+      "Step 3: Application routed to preferred scheduled commercial bank for credit appraisal.",
+      "Step 4: Loan sanctioned and 3% interest subvention auto-credited directly to loan account."
+    ],
+    "importantInfo": "Covers warehouses, silos, cold storage, ripening chambers, sorting & grading units, pack houses, and assaying labs.",
+    "applicationStatus": "Open",
+    "deadline": "FY 2025 - 2030",
+    "ministry": "Department of Agriculture & Farmers Welfare",
+    "tags": ["Cold Storage", "Warehouse", "AIF", "Post Harvest", "Low Interest"]
+  },
+  {
+    "id": "CS-009",
+    "name": "PM KUSUM (Solar Agricultural Pumps Scheme)",
+    "category": "Farm Equipment",
+    "shortDescription": "Financial assistance for standalone solar agriculture pumps and solarization of existing grid-connected agriculture pumps.",
+    "benefits": "60% subsidy (30% Central + 30% State Govt) on total solar pump system cost. Farmer contributes only 10%; remaining 30% available via bank loan.",
+    "benefitAmount": "Up to 60% total capital subsidy",
+    "eligibility": [
+      "Individual farmers, groups of farmers, Water User Associations, and FPOs",
+      "Cultivable land with existing borewell / open well requiring irrigation",
+      "Preference to un-electrified diesel pump owners"
+    ],
+    "ineligibility": [
+      "Lands with severe water table depletion where new borewells are prohibited without permission"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land Ownership Documents (Jamabandi / Khasra)",
+      "Borewell / Water Source Certificate",
+      "Bank Account Details",
+      "Recent Electricity Bill (for Component C grid-connected solarization)"
+    ],
+    "applicationProcess": [
+      "Step 1: Apply online on State Renewable Energy Agency portal under PM-KUSUM.",
+      "Step 2: Choose pump capacity (3 HP, 5 HP, 7.5 HP or 10 HP AC/DC pump).",
+      "Step 3: Deposit 10% farmer share upon technical site feasibility confirmation.",
+      "Step 4: Vendor installs solar panels, structure, and pump with 5-year comprehensive warranty.",
+      "Step 5: Inspection and commissioning certificate issuance."
+    ],
+    "importantInfo": "Eliminates diesel costs completely and provides daytime reliable electricity for irrigation, plus option to sell surplus power back to the grid.",
+    "applicationStatus": "Open",
+    "deadline": "31st March 2027",
+    "ministry": "Ministry of New and Renewable Energy (MNRE)",
+    "tags": ["Solar Pump", "Renewable Energy", "PM-KUSUM", "Zero Electricity Bill"]
+  },
+  {
+    "id": "CS-010",
+    "name": "Pradhan Mantri Matsya Sampada Yojana (PMMSY)",
+    "category": "Other Agricultural Support",
+    "shortDescription": "Flagship scheme for focused and sustainable development of fisheries sector, pond construction, and biofloc aquaculture.",
+    "benefits": "40% subsidy of total unit cost for General category; 60% subsidy for SC/ST/Women beneficiaries for aquaculture units, fish feed mills, and refrigerated vans.",
+    "benefitAmount": "40% to 60% subsidy on fisheries projects",
+    "eligibility": [
+      "Fishers, Fish farmers, Fish workers, Fish vendors",
+      "Individual entrepreneurs, SHGs, JLGs, and Fisheries Cooperatives",
+      "Owned or leased land / water bodies with minimum 7-year lease agreement"
+    ],
+    "ineligibility": [
+      "Non-compliant units under coastal regulation zone guidelines"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land / Waterbody Ownership or Lease Document",
+      "Project Plan & Cost Estimation",
+      "Bank Account Details",
+      "Category Certificate (for 60% enhanced subsidy)"
+    ],
+    "applicationProcess": [
+      "Step 1: Submit self-contained project proposal on PMMSY portal.",
+      "Step 2: District Level Committee (DLC) scrutinizes proposal and approves unit.",
+      "Step 3: State Fisheries Department issues administrative sanction.",
+      "Step 4: Phase-wise release of subsidy corresponding to construction milestones."
+    ],
+    "importantInfo": "Supports freshwater aquaculture, Biofloc, RAS (Recirculating Aquaculture Systems), ornamental fish breeding, and cold chain vehicles.",
+    "applicationStatus": "Open",
+    "deadline": "Open All Year",
+    "ministry": "Department of Fisheries / Ministry of Fisheries, Animal Husbandry and Dairying",
+    "tags": ["Fisheries", "Aquaculture", "PMMSY", "High Subsidy"]
+  }
+]

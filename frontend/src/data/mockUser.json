@@ -1,0 +1,27 @@
+{
+  "id": "KS-1001",
+  "farmerId": "KS-1001",
+  "name": "Amarjeet Kushwaha",
+  "fullName": "Amarjeet Kushwaha",
+  "firstName": "Amarjeet",
+  "lastName": "Kushwaha",
+  "initials": "AK",
+  "role": "Farmer",
+  "phone": "+91 98765 43210",
+  "email": "amarjeet.kushwaha@example.com",
+  "village": "Village Gaddowal",
+  "district": "Ludhiana",
+  "state": "Punjab",
+  "pincode": "141116",
+  "membership": "Gold Member",
+  "membershipTier": "Gold",
+  "memberSince": "March 2019",
+  "bio": "Second-generation farmer growing wheat, paddy and vegetables across 22.5 acres. Member of the Gaddowal co-operative society since 2019.",
+  "avatarColor": "#16a34a",
+  "upi": "amarjeet@oksbi",
+  "languages": ["Punjabi", "Hindi", "English"],
+  "preferences": {
+    "language": "English",
+    "location": "Punjab, India"
+  }
+}

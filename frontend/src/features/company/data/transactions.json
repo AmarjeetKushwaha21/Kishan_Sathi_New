@@ -1,0 +1,38 @@
+[
+  {
+    "id": "TXN-8801",
+    "orderId": "PO-1042",
+    "date": "2026-09-16",
+    "amount": "₹11,40,000",
+    "paymentStatus": "Paid (Escrow)",
+    "type": "Procurement Payment",
+    "method": "RTGS / Bank Transfer"
+  },
+  {
+    "id": "TXN-8800",
+    "orderId": "PO-1041",
+    "date": "2026-09-14",
+    "amount": "₹9,60,000",
+    "paymentStatus": "In Escrow",
+    "type": "Advance Payment",
+    "method": "Corporate Net Banking"
+  },
+  {
+    "id": "TXN-8799",
+    "orderId": "PO-1040",
+    "date": "2026-09-08",
+    "amount": "₹10,70,000",
+    "paymentStatus": "Completed",
+    "type": "Settlement",
+    "method": "NEFT"
+  },
+  {
+    "id": "TXN-8798",
+    "orderId": "PO-1039",
+    "date": "2026-09-12",
+    "amount": "₹3,88,800",
+    "paymentStatus": "Completed",
+    "type": "Advance (30%)",
+    "method": "UPI Corporate"
+  }
+]

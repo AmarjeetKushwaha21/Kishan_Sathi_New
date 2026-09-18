@@ -1,0 +1,493 @@
+[
+  {
+    "id": "SS-UP-001",
+    "name": "UP Krishi Yantra Subsidy Yojana",
+    "state": "Uttar Pradesh",
+    "category": "Farm Equipment",
+    "description": "Financial subsidy up to 50% on agricultural implements including rotavators, happy seeders, laser land levelers, and power sprayers for farmers of Uttar Pradesh.",
+    "benefits": "Direct bank subsidy of 40% - 50% (up to ₹1,00,000) on approved agricultural machinery through UP Agriculture portal e-lottery token system.",
+    "benefitAmount": "40% - 50% equipment subsidy",
+    "eligibility": [
+      "Registered farmer on upagriculture.com portal with valid Farmer ID (Kisan Panjikaran)",
+      "Resident of Uttar Pradesh with operational cultivable land in UP",
+      "One implement per farmer per category once in 3 years"
+    ],
+    "requiredDocuments": [
+      "Kisan Registration Number (UP Agriculture portal)",
+      "Aadhaar Card",
+      "Khatauni / Khasra land record",
+      "Bank Passbook linked to DBT account",
+      "Token Booking Receipt"
+    ],
+    "applicationProcess": [
+      "Step 1: Book online token on upagriculture.com during open booking window.",
+      "Step 2: Deposit security token money within 3 working days at Union Bank of India or online.",
+      "Step 3: Upload bill and serial number of machinery purchased from registered dealer.",
+      "Step 4: Physical verification by District Agriculture Officer (DAO).",
+      "Step 5: Direct subsidy credit to bank account via DBT."
+    ],
+    "applicationStatus": "Token Booking Active",
+    "deadline": "25th October 2026",
+    "department": "Department of Agriculture, Govt. of Uttar Pradesh",
+    "tags": ["UP Schemes", "Krishi Yantra", "Token Booking", "Tractor Implements"]
+  },
+  {
+    "id": "SS-UP-002",
+    "name": "Mukhyamantri Khet Suraksha Yojana",
+    "state": "Uttar Pradesh",
+    "category": "Subsidies",
+    "description": "Solar fencing subsidy scheme to safeguard standing crops from stray animals and wild boars without causing harm to animals.",
+    "benefits": "60% subsidy (up to ₹1,43,000 per hectare) for installing solar-powered low voltage pulsating fences around cultivable fields.",
+    "benefitAmount": "60% subsidy up to ₹1.43 Lakh/ha",
+    "eligibility": [
+      "Individual farmers or farmer groups in Uttar Pradesh suffering crop depredation from stray animals",
+      "Minimum 1 hectare contiguous land holding for group application"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "UP Kisan Panjikaran",
+      "Land ownership Khatauni",
+      "Field boundary map certified by Lekhpal"
+    ],
+    "applicationProcess": [
+      "Step 1: Submit application on UP Agriculture Portal under Solar Fencing module.",
+      "Step 2: On-site verification of perimeter length by agriculture supervisor.",
+      "Step 3: Installation of certified solar fence unit by empanelled vendor.",
+      "Step 4: Joint inspection and subsidy release."
+    ],
+    "applicationStatus": "Open",
+    "deadline": "Open All Year",
+    "department": "Department of Agriculture, Govt. of Uttar Pradesh",
+    "tags": ["UP Schemes", "Crop Protection", "Solar Fencing"]
+  },
+  {
+    "id": "SS-BH-001",
+    "name": "Bihar Rajya Fasal Sahayata Yojana (BRFSY)",
+    "state": "Bihar",
+    "category": "Crop Insurance",
+    "description": "Zero-premium crop assistance scheme providing direct compensation to both landowning and tenant farmers of Bihar in case of crop yield loss.",
+    "benefits": "₹7,500/hectare for yield loss up to 20%; ₹10,000/hectare for yield loss greater than 20%. Completely free registration with zero premium required from farmers.",
+    "benefitAmount": "₹7,500 - ₹10,000 / hectare",
+    "eligibility": [
+      "All resident farmers of Bihar (both Ryot / Landowners and Non-Ryot / Sharecroppers)",
+      "Must have cultivated notified crops (Paddy, Maize, Wheat, Gram, Mustard) in notified Gram Panchayat"
+    ],
+    "requiredDocuments": [
+      "Bihar Farmer Registration Number (DBT Bihar Portal)",
+      "Aadhaar Card",
+      "Land Possession Certificate (LPC) / Revenue Receipt (for Ryot)",
+      "Self-declaration certificate verified by Ward Member / PACS Chairman (for Non-Ryot)",
+      "Bank Account details"
+    ],
+    "applicationProcess": [
+      "Step 1: Apply online on state cooperative portal (pacsonline.bih.nic.in).",
+      "Step 2: Upload land documents and crop declaration photos.",
+      "Step 3: Crop Cutting Experiment (CCE) based gram panchayat yield loss assessment.",
+      "Step 4: Automatic direct compensation payout to eligible farmers' bank accounts."
+    ],
+    "applicationStatus": "Open for Kharif",
+    "deadline": "31st August 2026",
+    "department": "Department of Co-operative, Govt. of Bihar",
+    "tags": ["Bihar Schemes", "Zero Premium", "BRFSY", "Fasal Sahayata"]
+  },
+  {
+    "id": "SS-BH-002",
+    "name": "Bihar Diesel Anudan Yojana",
+    "state": "Bihar",
+    "category": "Subsidies",
+    "description": "Financial subsidy for diesel irrigation to protect standing crops during dry spells and drought-like weather conditions in Bihar.",
+    "benefits": "₹75 per liter of diesel (up to ₹750 per acre per irrigation cycle, maximum 3 irrigations for Paddy and 4 for Pulses/Oilseeds).",
+    "benefitAmount": "₹750 / acre per irrigation",
+    "eligibility": [
+      "All registered farmers of Bihar owning or leasing land affected by monsoon delays or dry spells",
+      "Diesel must be purchased from authorized petrol pumps with valid computerized invoice"
+    ],
+    "requiredDocuments": [
+      "DBT Bihar Kisan Registration ID",
+      "Aadhaar Card",
+      "Computerized Diesel Purchase Receipt (with 13-digit registration no.)",
+      "Land LPC or Non-Ryot declaration"
+    ],
+    "applicationProcess": [
+      "Step 1: Apply on dbtagriculture.bihar.gov.in under Diesel Anudan.",
+      "Step 2: Upload scanned copy of computerized diesel petrol pump invoice.",
+      "Step 3: Verification by Panchayat Agriculture Coordinator (AC) within 7 days.",
+      "Step 4: Immediate DBT payment directly to farmer's bank account."
+    ],
+    "applicationStatus": "Active During Dry Spells",
+    "deadline": "15th September 2026",
+    "department": "Department of Agriculture, Govt. of Bihar",
+    "tags": ["Bihar Schemes", "Diesel Subsidy", "Irrigation Support"]
+  },
+  {
+    "id": "SS-MH-001",
+    "name": "Namo Shetkari Mahasanman Nidhi Yojana",
+    "state": "Maharashtra",
+    "category": "Farmer Benefits",
+    "description": "Additional annual financial assistance of ₹6,000 by the Government of Maharashtra to all PM-KISAN beneficiary farmers in the state.",
+    "benefits": "₹6,000/year in 3 equal installments of ₹2,000 (combining with PM-KISAN to give Maharashtra farmers a total of ₹12,000 annually).",
+    "benefitAmount": "₹6,000 / year (State Top-up)",
+    "eligibility": [
+      "All active beneficiaries of PM-KISAN in the state of Maharashtra",
+      "Must have completed Aadhaar authentication and land record linking in Mahadbt portal"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "PM-KISAN Beneficiary ID",
+      "7/12 Extract (Satbara Utara) & 8A Extract",
+      "Bank Account linked with Aadhaar NPCI mapper"
+    ],
+    "applicationProcess": [
+      "Step 1: Automatic onboarding for all verified PM-KISAN beneficiaries in Maharashtra.",
+      "Step 2: Status check and eKYC update on mahadbt.maharashtra.gov.in.",
+      "Step 3: Direct deposit of ₹2,000 every 4 months alongside central PM-KISAN release."
+    ],
+    "applicationStatus": "Active",
+    "deadline": "Open All Year",
+    "department": "Agriculture Department, Govt. of Maharashtra",
+    "tags": ["Maharashtra", "Namo Shetkari", "₹12000 Support", "Direct Benefit"]
+  },
+  {
+    "id": "SS-MH-002",
+    "name": "Magel Tyala Shettale (Farm Pond On Demand Scheme)",
+    "state": "Maharashtra",
+    "category": "Irrigation",
+    "description": "Providing financial grants to farmers of Maharashtra to dig individual farm ponds for harvesting rainwater and drought proofing.",
+    "benefits": "Direct grant up to ₹75,000 for standard farm pond excavation + additional ₹1,00,000 subsidy for plastic lining to prevent seepage.",
+    "benefitAmount": "Up to ₹1,75,000 for Pond + Lining",
+    "eligibility": [
+      "Farmers owning minimum 0.60 hectare (1.5 acres) cultivable land in Maharashtra",
+      "Land must be physically suitable for watershed and water storage"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "7/12 & 8A Land Extract",
+      "Caste Certificate (if applicable)",
+      "Bank Passbook"
+    ],
+    "applicationProcess": [
+      "Step 1: Register on MahaDBT Farmer Portal.",
+      "Step 2: Select 'Magel Tyala Shettale' under Irrigation Infrastructure.",
+      "Step 3: Technical drawing and approval by Taluka Agriculture Officer (TAO).",
+      "Step 4: Excavation and geo-tagged photographic inspection.",
+      "Step 5: Direct subsidy disbursement into DBT account."
+    ],
+    "applicationStatus": "Open",
+    "deadline": "Open All Year",
+    "department": "Agriculture Department, Govt. of Maharashtra",
+    "tags": ["Maharashtra", "Farm Pond", "Water Harvesting", "Drought Proofing"]
+  },
+  {
+    "id": "SS-PB-001",
+    "name": "Punjab Crop Residue Management (CRM) Subsidy",
+    "state": "Punjab",
+    "category": "Farm Equipment",
+    "description": "Subsidized distribution of in-situ crop residue management machinery (Super SMS, Happy Seeder, Smart Seeder, Paddy Straw Chopper, Mulcher) to prevent stubble burning.",
+    "benefits": "50% individual subsidy for farmers and 80% subsidy for Custom Hiring Centers (CHCs) and Cooperatives on designated crop residue management machines.",
+    "benefitAmount": "50% Individual / 80% CHC Subsidy",
+    "eligibility": [
+      "Cultivators in Punjab having cultivable paddy land",
+      "Individual farmers, registered Cooperative Societies, Panchayats, and FPOs"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Punjab Land Jamabandi Record",
+      "Self-declaration of zero stubble burning",
+      "Bank Account Details",
+      "Tractor Registration Certificate (RC)"
+    ],
+    "applicationProcess": [
+      "Step 1: Apply on agrimachinerypb.com portal with Aadhaar and tractor details.",
+      "Step 2: Department approves eligible applicants via transparent computerized lottery.",
+      "Step 3: Purchase machinery from empanelled manufacturers with unique chassis number.",
+      "Step 4: Physical geo-tagged inspection by agriculture team.",
+      "Step 5: DBT subsidy release into bank account."
+    ],
+    "applicationStatus": "Open for Paddy Harvest",
+    "deadline": "20th October 2026",
+    "department": "Department of Agriculture and Farmers Welfare, Govt. of Punjab",
+    "tags": ["Punjab", "Stubble Management", "Happy Seeder", "CRM"]
+  },
+  {
+    "id": "SS-PB-002",
+    "name": "Pani Bachao, Paisa Kamao (PBPK) Scheme",
+    "state": "Punjab",
+    "category": "Subsidies",
+    "description": "Direct financial incentive to Punjab farmers for conserving groundwater and electricity by using less power on agricultural tube wells.",
+    "benefits": "₹4.00 per kilowatt-hour (kWh) electricity saved against baseline quota credited directly to the farmer's bank account every month.",
+    "benefitAmount": "₹4.00 / kWh electricity saved (up to ₹15,000/season)",
+    "eligibility": [
+      "Farmers having operational agricultural electricity tube well connections in notified feeder blocks of Punjab"
+    ],
+    "requiredDocuments": [
+      "PSPCL (Punjab State Power Corp) Consumer Account Number",
+      "Aadhaar Card",
+      "Bank Account Details"
+    ],
+    "applicationProcess": [
+      "Step 1: Voluntary enrollment at local PSPCL sub-division or via Kisan Sathi portal.",
+      "Step 2: Free installation of automated digital energy meter on agriculture connection.",
+      "Step 3: Baseline power quota assigned based on land area.",
+      "Step 4: Monthly savings calculated and direct cash incentive credited to bank."
+    ],
+    "applicationStatus": "Open",
+    "deadline": "Open All Year",
+    "department": "Govt. of Punjab & PSPCL",
+    "tags": ["Punjab", "Groundwater Saving", "Direct Incentive", "PSPCL"]
+  },
+  {
+    "id": "SS-HR-001",
+    "name": "Mera Pani Meri Virasat Yojana",
+    "state": "Haryana",
+    "category": "Subsidies",
+    "description": "Financial incentive to Haryana farmers who switch from water-guzzling paddy to alternative crops such as Maize, Cotton, Pulses, Millets, and Horticulture.",
+    "benefits": "₹7,000 per acre direct financial assistance for every acre shifted away from paddy cultivation to designated alternate crops or left fallow for agroforestry.",
+    "benefitAmount": "₹7,000 / acre incentive",
+    "eligibility": [
+      "Farmers registered on Meri Fasal Mera Byora (MFMB) portal of Haryana who cultivated paddy in the preceding year"
+    ],
+    "requiredDocuments": [
+      "Parivar Pehchan Patra (PPP) Family ID",
+      "MFMB Farmer Registration Number",
+      "Aadhaar Card",
+      "Land Jamabandi details",
+      "Bank Account linked to PPP"
+    ],
+    "applicationProcess": [
+      "Step 1: Register crop switching details on fasal.haryana.gov.in portal.",
+      "Step 2: Satellite imagery and field verification by Revenue & Agriculture staff.",
+      "Step 3: Verification of alternate crop establishment.",
+      "Step 4: Two-installment DBT payout (₹2,000 on verification + ₹5,000 post flowering)."
+    ],
+    "applicationStatus": "Open for Kharif",
+    "deadline": "31st July 2026",
+    "department": "Department of Agriculture & Farmers Welfare, Haryana",
+    "tags": ["Haryana", "Crop Diversification", "Mera Pani Meri Virasat", "₹7000 Incentive"]
+  },
+  {
+    "id": "SS-HR-002",
+    "name": "Bhavantar Bharpayee Yojana (BBY)",
+    "state": "Haryana",
+    "category": "Farmer Benefits",
+    "description": "Price deficit compensation scheme protecting Haryana horticulture and vegetable growers from market price crashes below protected base prices.",
+    "benefits": "Compensation for the difference between the government fixed benchmark price and the actual mandi sale price for 21 notified vegetable & fruit crops.",
+    "benefitAmount": "Price deficit compensation up to ₹50,000/acre",
+    "eligibility": [
+      "Horticulture growers of Haryana cultivating notified vegetables (Tomato, Onion, Potato, Cauliflower, Carrot, etc.) and registered on MFMB"
+    ],
+    "requiredDocuments": [
+      "Family ID (PPP)",
+      "MFMB Registration Number",
+      "Mandi J-Form (Sale Receipt from Haryana Mandi)",
+      "Bank Passbook"
+    ],
+    "applicationProcess": [
+      "Step 1: Register crop sowing on MFMB during the notified window.",
+      "Step 2: Sell produce at any notified APMC mandi in Haryana and obtain computerized J-Form.",
+      "Step 3: Automatic deficit calculation against minimum benchmark price.",
+      "Step 4: Direct payout credited into farmer's account within 15 days."
+    ],
+    "applicationStatus": "Open",
+    "deadline": "Open All Year",
+    "department": "Haryana State Agricultural Marketing Board",
+    "tags": ["Haryana", "Price Support", "Bhavantar", "Vegetables & Fruits"]
+  },
+  {
+    "id": "SS-KA-001",
+    "name": "Krishi Bhagya Yojana",
+    "state": "Karnataka",
+    "category": "Irrigation",
+    "description": "Integrated package for rainfed farmers in Karnataka including polythene-lined farm ponds, diesel/solar pumps, and micro-irrigation sets for protective irrigation.",
+    "benefits": "80% to 90% subsidy for SC/ST farmers; 50% to 80% subsidy for General farmers on complete farm pond construction and polythene lining unit.",
+    "benefitAmount": "Up to 90% package subsidy",
+    "eligibility": [
+      "Farmers owning land in rainfed and drought-prone taluks of Karnataka",
+      "Registered on FRUITS (Farmer Registration and Unified Beneficiary Information System) portal"
+    ],
+    "requiredDocuments": [
+      "FRUITS ID (FID)",
+      "Aadhaar Card",
+      "Pahani / RTC Record",
+      "Caste Certificate (for higher subsidy)",
+      "Bank Passbook"
+    ],
+    "applicationProcess": [
+      "Step 1: Apply via FRUITS portal or Raitha Samparka Kendra (RSK).",
+      "Step 2: Pre-inspection and feasibility certification by Assistant Director of Agriculture.",
+      "Step 3: Excavation of farm pond and laying of 500-micron UV stabilized sheet.",
+      "Step 4: Post-inspection and direct DBT transfer of subsidy."
+    ],
+    "applicationStatus": "Open",
+    "deadline": "31st March 2027",
+    "department": "Department of Agriculture, Govt. of Karnataka",
+    "tags": ["Karnataka", "Krishi Bhagya", "FRUITS", "Farm Pond"]
+  },
+  {
+    "id": "SS-AP-001",
+    "name": "YSR Rythu Bharosa",
+    "state": "Andhra Pradesh",
+    "category": "Farmer Benefits",
+    "description": "Comprehensive input assistance scheme offering ₹13,500 per year to landowning farmer families and ₹13,500 to landless SC/ST/BC/Minority tenant farmer families.",
+    "benefits": "₹13,500 per farmer family annually in 3 installments (₹7,500 in May before sowing, ₹4,000 in October for harvest/Rabi, ₹2,000 in January on Sankranti).",
+    "benefitAmount": "₹13,500 / year",
+    "eligibility": [
+      "All farmer families cultivating land in Andhra Pradesh",
+      "Eligible tenant farmers possessing valid Crop Cultivator Rights Cards (CCRC)"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Pattadar Passbook / 1B Land Extract",
+      "Crop Cultivator Rights Card (CCRC) for tenant farmers",
+      "Aadhaar linked Bank Account"
+    ],
+    "applicationProcess": [
+      "Step 1: Village Agriculture Assistant (VAA) at Rythu Bharosa Kendra (RBK) conducts door-to-door enumeration.",
+      "Step 2: Social audit list displayed at village secretariat.",
+      "Step 3: Direct biometric authentication and immediate DBT payout."
+    ],
+    "applicationStatus": "Active",
+    "deadline": "Open for Annual Verification",
+    "department": "Agriculture & Cooperation Department, Govt. of Andhra Pradesh",
+    "tags": ["Andhra Pradesh", "Rythu Bharosa", "Tenant Support", "RBK"]
+  },
+  {
+    "id": "SS-MP-001",
+    "name": "Mukhyamantri Kisan Kalyan Yojana",
+    "state": "Madhya Pradesh",
+    "category": "Farmer Benefits",
+    "description": "State top-up scheme providing additional ₹6,000 annually in 3 installments to all eligible PM-KISAN beneficiary farmers in Madhya Pradesh.",
+    "benefits": "₹6,000/year directly credited in 3 equal installments of ₹2,000 to augment farmer household income.",
+    "benefitAmount": "₹6,000 / year",
+    "eligibility": [
+      "Resident farmers of Madhya Pradesh enrolled and receiving PM-KISAN benefits",
+      "Cultivable land record updated on MP Bhulekh portal"
+    ],
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "PM-KISAN Registration ID",
+      "Khasra / B-1 Land Record",
+      "Bank Account Details"
+    ],
+    "applicationProcess": [
+      "Step 1: Automatic verification via SAARA (Smart Application for Agricultural Revenue Administration) portal.",
+      "Step 2: Patwari field verification of land status.",
+      "Step 3: Approval by Tehsildar and automated DBT release."
+    ],
+    "applicationStatus": "Active",
+    "deadline": "Open All Year",
+    "department": "Revenue and Agriculture Department, Govt. of Madhya Pradesh",
+    "tags": ["Madhya Pradesh", "Kisan Kalyan", "SAARA", "Direct Benefit"]
+  },
+  {
+    "id": "SS-RJ-001",
+    "name": "Rajasthan Tarbandi Yojana",
+    "state": "Rajasthan",
+    "category": "Subsidies",
+    "description": "Subsidy for barbed wire boundary fencing to protect crops from stray cattle, nilgai, and wild animals in agricultural fields across Rajasthan.",
+    "benefits": "50% to 60% subsidy (up to ₹48,000 for individual farmers and up to ₹56,000 for small/marginal farmers) for 400 running meters of barbed wire fencing.",
+    "benefitAmount": "50% - 60% subsidy (up to ₹56,000)",
+    "eligibility": [
+      "Individual farmers having minimum 1.5 hectares of cultivable land or group of farmers having minimum 5 hectares in Rajasthan"
+    ],
+    "requiredDocuments": [
+      "Jan Aadhaar Card",
+      "Jamabandi Record (not older than 6 months)",
+      "Field Map / Naksha trace",
+      "Bank Passbook linked to Jan Aadhaar"
+    ],
+    "applicationProcess": [
+      "Step 1: Apply online on RajKisan Sathi portal (rajkisan.rajasthan.gov.in).",
+      "Step 2: Pre-verification by Agriculture Supervisor.",
+      "Step 3: Complete barbed wire fencing installation as per standards.",
+      "Step 4: Post-verification and geo-tagged inspection.",
+      "Step 5: Direct subsidy deposit into Jan Aadhaar bank account."
+    ],
+    "applicationStatus": "Open",
+    "deadline": "Open All Year",
+    "department": "Department of Agriculture, Govt. of Rajasthan",
+    "tags": ["Rajasthan", "Tarbandi", "Crop Fencing", "RajKisan Sathi"]
+  },
+  {
+    "id": "SS-TN-001",
+    "name": "Kalaignar All Village Integrated Agriculture Development Programme",
+    "state": "Tamil Nadu",
+    "category": "Seeds",
+    "description": "Converting fallow lands into cultivable land with distribution of high quality seed kits, saplings, micro-irrigation, and solar pumps in Tamil Nadu village panchayats.",
+    "benefits": "Free agricultural input kits containing quality seeds, fruit saplings, bio-fertilizers, battery sprayers (50% subsidy), and farm toolkits for rural farmers.",
+    "benefitAmount": "100% Free Seed Kit / 50% Tool Subsidy",
+    "eligibility": [
+      "Farmers residing in selected village panchayats of Tamil Nadu enrolled in Uzhavan App"
+    ],
+    "requiredDocuments": [
+      "Uzhavan App Registration / Farmer ID",
+      "Aadhaar Card",
+      "Chitta / Patta land record",
+      "Ration Card"
+    ],
+    "applicationProcess": [
+      "Step 1: Register through the Uzhavan App or Village Agricultural Extension Centre (AEC).",
+      "Step 2: Select eligible component (Seed Kit, Orchard Planting, Sprayer).",
+      "Step 3: Collection from local Agricultural Extension Centre upon SMS intimation."
+    ],
+    "applicationStatus": "Open",
+    "deadline": "Open All Year",
+    "department": "Department of Agriculture and Farmers Welfare, Tamil Nadu",
+    "tags": ["Tamil Nadu", "Uzhavan", "Integrated Agriculture", "Free Seed Kits"]
+  },
+  {
+    "id": "SS-GJ-001",
+    "name": "Gujarat Saat Pagla Khedut Kalyanna Yojana",
+    "state": "Gujarat",
+    "category": "Farm Equipment",
+    "description": "Seven-step comprehensive farmer welfare package in Gujarat covering small storage godowns, indigenous cow maintenance, toolkits, and crop protection.",
+    "benefits": "Subsidies up to ₹30,000 for farm godown construction; ₹900/month (₹10,800/yr) for maintaining indigenous cows; 75% subsidy on drum toolkits for natural farming.",
+    "benefitAmount": "Up to ₹30,000 Godown / ₹10,800 Cow Grant",
+    "eligibility": [
+      "Farmers registered on i-Khedut portal of Gujarat with active 7/12 land records"
+    ],
+    "requiredDocuments": [
+      "i-Khedut Registration Number",
+      "Aadhaar Card",
+      "7/12 & 8A Land Extract",
+      "Bank Passbook"
+    ],
+    "applicationProcess": [
+      "Step 1: Apply on ikhedut.gujarat.gov.in portal during open application window.",
+      "Step 2: Scrutiny by District Agriculture Office.",
+      "Step 3: Construction / purchase as per guidelines.",
+      "Step 4: Physical inspection and direct DBT payment."
+    ],
+    "applicationStatus": "Open",
+    "deadline": "30th November 2026",
+    "department": "Agriculture, Farmers Welfare & Co-operation Dept, Gujarat",
+    "tags": ["Gujarat", "i-Khedut", "Saat Pagla", "Cow Maintenance", "Godown"]
+  },
+  {
+    "id": "SS-WB-001",
+    "name": "Krishak Bandhu (Natun) Scheme",
+    "state": "West Bengal",
+    "category": "Farmer Benefits",
+    "description": "Flagship scheme of West Bengal providing assured financial assistance for agricultural inputs and ₹2,00,000 death benefit insurance for farmer families.",
+    "benefits": "₹10,000 per year (for 1 or more acre land) in two equal installments (Kharif & Rabi); pro-rata assistance for smaller lands (min ₹4,000/yr) + ₹2 Lakh death insurance.",
+    "benefitAmount": "₹4,000 - ₹10,000 / year + ₹2 Lakh Life Cover",
+    "eligibility": [
+      "All farmers and recorded Bhagchasi (Sharecroppers) residing in West Bengal aged 18 to 60 years"
+    ],
+    "requiredDocuments": [
+      "Krishak Bandhu Card / Farmer ID",
+      "Aadhaar Card",
+      "RoR / Parcha (Land Record)",
+      "Bank Passbook",
+      "Nominee details for insurance"
+    ],
+    "applicationProcess": [
+      "Step 1: Apply at Duare Sarkar camp or Assistant Director of Agriculture (ADA) office.",
+      "Step 2: Issue of Krishak Bandhu digital smart card with unique KB-ID.",
+      "Step 3: Direct deposit of Kharif installment in June and Rabi installment in November."
+    ],
+    "applicationStatus": "Active",
+    "deadline": "Open All Year",
+    "department": "Department of Agriculture, Govt. of West Bengal",
+    "tags": ["West Bengal", "Krishak Bandhu", "Duare Sarkar", "Life Cover"]
+  }
+]

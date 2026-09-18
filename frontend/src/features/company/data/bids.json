@@ -1,0 +1,67 @@
+[
+  {
+    "id": "BID-501",
+    "crop": "Wheat (Sharbati)",
+    "bidAmount": 2380,
+    "unit": "Quintal",
+    "quantity": 500,
+    "totalValue": "₹11,90,000",
+    "farmer": "Gurpreet Singh",
+    "location": "Ludhiana, Punjab",
+    "status": "Active",
+    "date": "2026-09-17",
+    "validUntil": "2026-09-24"
+  },
+  {
+    "id": "BID-502",
+    "crop": "Basmati Rice (1121)",
+    "bidAmount": 3800,
+    "unit": "Quintal",
+    "quantity": 300,
+    "totalValue": "₹11,40,000",
+    "farmer": "Ramesh Verma",
+    "location": "Karnal, Haryana",
+    "status": "Accepted",
+    "date": "2026-09-15",
+    "validUntil": "2026-09-22"
+  },
+  {
+    "id": "BID-503",
+    "crop": "Cotton (Shankar-6)",
+    "bidAmount": 7100,
+    "unit": "Quintal",
+    "quantity": 150,
+    "totalValue": "₹10,65,000",
+    "farmer": "Bhavesh Patel",
+    "location": "Rajkot, Gujarat",
+    "status": "Rejected",
+    "date": "2026-09-12",
+    "validUntil": "2026-09-16"
+  },
+  {
+    "id": "BID-504",
+    "crop": "Soybean (JS-335)",
+    "bidAmount": 4500,
+    "unit": "Quintal",
+    "quantity": 400,
+    "totalValue": "₹18,00,000",
+    "farmer": "Kishore Sharma",
+    "location": "Indore, Madhya Pradesh",
+    "status": "Expired",
+    "date": "2026-09-05",
+    "validUntil": "2026-09-12"
+  },
+  {
+    "id": "BID-505",
+    "crop": "Mustard (Pusa Bold)",
+    "bidAmount": 5300,
+    "unit": "Quintal",
+    "quantity": 250,
+    "totalValue": "₹13,25,000",
+    "farmer": "Ramphal Meena",
+    "location": "Alwar, Rajasthan",
+    "status": "Active",
+    "date": "2026-09-18",
+    "validUntil": "2026-09-25"
+  }
+]

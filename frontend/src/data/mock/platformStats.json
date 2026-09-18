@@ -1,0 +1,44 @@
+[
+  {
+    "id": "farmers",
+    "value": "10,000+",
+    "labelKey": "statFarmers",
+    "defaultLabel": "Registered Farmers",
+    "icon": "farmers"
+  },
+  {
+    "id": "companies",
+    "value": "500+",
+    "labelKey": "statCompanies",
+    "defaultLabel": "Registered Companies / Buyers",
+    "icon": "building"
+  },
+  {
+    "id": "crops",
+    "value": "50+",
+    "labelKey": "statCrops",
+    "defaultLabel": "Crops Supported",
+    "icon": "sprout"
+  },
+  {
+    "id": "states",
+    "value": "20+",
+    "labelKey": "statStates",
+    "defaultLabel": "States Reached",
+    "icon": "mapPin"
+  },
+  {
+    "id": "experts",
+    "value": "100+",
+    "labelKey": "statExperts",
+    "defaultLabel": "Expert Partners",
+    "icon": "expert"
+  },
+  {
+    "id": "reports",
+    "value": "1,000+",
+    "labelKey": "statReports",
+    "defaultLabel": "Crop Reports Generated",
+    "icon": "report"
+  }
+]

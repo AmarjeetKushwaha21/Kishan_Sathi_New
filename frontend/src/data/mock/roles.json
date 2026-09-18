@@ -1,0 +1,26 @@
+[
+  {
+    "id": "farmer",
+    "titleKey": "farmerTitle",
+    "descKey": "farmerDesc",
+    "buttonKey": "continueFarmer",
+    "defaultTitle": "Farmer",
+    "defaultDesc": "Get AI crop advice, real-time weather updates, market prices, access to agriculture store, government schemes and expert support.",
+    "defaultButton": "Continue as Farmer →",
+    "link": "/dashboard",
+    "authLink": "/login?role=farmer",
+    "type": "farmer"
+  },
+  {
+    "id": "company",
+    "titleKey": "companyTitle",
+    "descKey": "companyDesc",
+    "buttonKey": "continueCompany",
+    "defaultTitle": "Company / Buyer",
+    "defaultDesc": "Find quality crops, connect with farmers, manage procurement, place bids and orders, and build your supply chain.",
+    "defaultButton": "Continue as Company →",
+    "link": "/dashboard/marketplace",
+    "authLink": "/login?role=company",
+    "type": "company"
+  }
+]

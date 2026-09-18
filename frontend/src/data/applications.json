@@ -1,0 +1,127 @@
+[
+  {
+    "id": "APP-2026-8841",
+    "schemeId": "CS-001",
+    "schemeName": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "schemeType": "Central",
+    "category": "Farmer Benefits",
+    "applicantName": "Amarjeet Kushwaha",
+    "appliedDate": "14 Aug 2026",
+    "status": "Approved",
+    "statusLabel": "Approved & Disbursed",
+    "trackingId": "PMK-99201948",
+    "amount": "₹6,000 / year",
+    "remarks": "eKYC verified via Aadhaar OTP. Land record verified by Lekhpal. 14th installment credited to SBI A/c ending in 4921.",
+    "timeline": [
+      { "title": "Application Drafted", "date": "14 Aug 2026, 10:30 AM", "completed": true, "description": "Form initiated with Aadhaar and Khasra details." },
+      { "title": "Application Submitted", "date": "14 Aug 2026, 11:15 AM", "completed": true, "description": "Successfully submitted on central portal. Ref #PMK-99201948." },
+      { "title": "Document & Field Verification", "date": "18 Aug 2026, 03:40 PM", "completed": true, "description": "Revenue Inspector (Lekhpal) verified Khatauni #84/2A." },
+      { "title": "District Level Approval", "date": "22 Aug 2026, 05:10 PM", "completed": true, "description": "Approved by District Agriculture Officer." },
+      { "title": "DBT Benefit Sanctioned", "date": "26 Aug 2026, 09:00 AM", "completed": true, "description": "PFMS payment batch processed. Next installment scheduled for December." }
+    ]
+  },
+  {
+    "id": "APP-2026-8839",
+    "schemeId": "CS-002",
+    "schemeName": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "schemeType": "Central",
+    "category": "Crop Insurance",
+    "applicantName": "Amarjeet Kushwaha",
+    "appliedDate": "20 Aug 2026",
+    "status": "Under Review",
+    "statusLabel": "Under Review (Field Survey)",
+    "trackingId": "FBY-74910283",
+    "amount": "Sum Insured: ₹1,20,000",
+    "remarks": "Sowing certificate verified. Satellite NDVI survey pending for block verification.",
+    "timeline": [
+      { "title": "Application Drafted", "date": "19 Aug 2026, 02:00 PM", "completed": true, "description": "Crop area and premium calculated." },
+      { "title": "Application Submitted", "date": "20 Aug 2026, 09:30 AM", "completed": true, "description": "Farmer premium share of ₹2,400 paid via Net Banking." },
+      { "title": "Policy Document Issued", "date": "21 Aug 2026, 11:00 AM", "completed": true, "description": "Insurance Cover Note #PMFBY-PB-2026-991 generated." },
+      { "title": "Under Review & Survey", "date": "25 Aug 2026, 04:00 PM", "completed": true, "current": true, "description": "Currently assessing block yield data with local agriculture department." },
+      { "title": "Final Claim Settlement (if applicable)", "date": "Pending Season End", "completed": false, "description": "Claim disbursement if CCE yield deficit recorded." }
+    ]
+  },
+  {
+    "id": "APP-2026-8835",
+    "schemeId": "CS-005",
+    "schemeName": "PMKSY - Drip Irrigation Subsidy (Per Drop More Crop)",
+    "schemeType": "Central",
+    "category": "Irrigation",
+    "applicantName": "Amarjeet Kushwaha",
+    "appliedDate": "28 Aug 2026",
+    "status": "Submitted",
+    "statusLabel": "Submitted (Awaiting Site Inspection)",
+    "trackingId": "DRP-66192801",
+    "amount": "Subsidy Amount: ₹42,500",
+    "remarks": "Quotation submitted for Jain Irrigation Drip Kit for 2.5 acres. Awaiting technical team site inspection.",
+    "timeline": [
+      { "title": "Application Drafted", "date": "27 Aug 2026, 04:15 PM", "completed": true, "description": "Borewell certificate and land map attached." },
+      { "title": "Application Submitted", "date": "28 Aug 2026, 10:00 AM", "completed": true, "current": true, "description": "Forwarded to Assistant Director of Horticulture." },
+      { "title": "Technical Site Survey", "date": "Expected by 05 Sep 2026", "completed": false, "description": "Empanelled engineer site visit for pipe layout design." },
+      { "title": "Work Order Issuance", "date": "Pending Survey", "completed": false, "description": "Sanction letter release to initiate equipment installation." },
+      { "title": "Installation & DBT Release", "date": "Pending Installation", "completed": false, "description": "Final subsidy payout directly to beneficiary." }
+    ]
+  },
+  {
+    "id": "APP-2026-8828",
+    "schemeId": "SS-PB-001",
+    "schemeName": "Punjab Crop Residue Management (CRM) Subsidy",
+    "state": "Punjab",
+    "schemeType": "State",
+    "category": "Farm Equipment",
+    "applicantName": "Amarjeet Kushwaha",
+    "appliedDate": "10 Aug 2026",
+    "status": "Approved",
+    "statusLabel": "Approved (Token Generated)",
+    "trackingId": "PB-CRM-33829",
+    "amount": "Subsidy Amount: ₹85,000",
+    "remarks": "Token issued for Smart Seeder purchase. Dealer authorized: Guru Nanak Agri Implements, Ludhiana.",
+    "timeline": [
+      { "title": "Application Drafted", "date": "08 Aug 2026, 03:00 PM", "completed": true, "description": "Tractor RC and zero-burning affidavit uploaded." },
+      { "title": "Application Submitted", "date": "10 Aug 2026, 09:15 AM", "completed": true, "description": "Enrolled in district computerized lottery." },
+      { "title": "Lottery Selection", "date": "15 Aug 2026, 02:30 PM", "completed": true, "description": "Selected under Small/Marginal Farmer category." },
+      { "title": "Subsidy Token Issued", "date": "18 Aug 2026, 11:00 AM", "completed": true, "description": "Purchase token #TKN-8820 valid up to 15th October." },
+      { "title": "Physical Verification & Payment", "date": "22 Aug 2026, 04:00 PM", "completed": true, "description": "Subsidy of ₹85,000 released after machine chassis inspection." }
+    ]
+  },
+  {
+    "id": "APP-2026-8812",
+    "schemeId": "CS-004",
+    "schemeName": "Sub-Mission on Agricultural Mechanization (SMAM - Power Tiller)",
+    "schemeType": "Central",
+    "category": "Farm Equipment",
+    "applicantName": "Amarjeet Kushwaha",
+    "appliedDate": "02 Jul 2026",
+    "status": "Rejected",
+    "statusLabel": "Rejected (Incomplete Records)",
+    "trackingId": "SMA-11092834",
+    "amount": "Subsidy Request: ₹60,000",
+    "remarks": "Application rejected due to mismatched survey numbers between Khasra copy and Jamabandi certificate. Please re-apply with an updated land certificate.",
+    "timeline": [
+      { "title": "Application Drafted", "date": "01 Jul 2026, 11:00 AM", "completed": true, "description": "Form created on national mechanization portal." },
+      { "title": "Application Submitted", "date": "02 Jul 2026, 10:30 AM", "completed": true, "description": "Submitted with proforma quotation." },
+      { "title": "Document Scrutiny", "date": "06 Jul 2026, 03:15 PM", "completed": true, "description": "Discrepancy found in land parcel numbers." },
+      { "title": "Application Rejected", "date": "08 Jul 2026, 05:00 PM", "completed": true, "description": "Notice issued with correction guidelines. Option to re-apply available." }
+    ]
+  },
+  {
+    "id": "APP-2026-8850",
+    "schemeId": "CS-003",
+    "schemeName": "Kisan Credit Card (KCC) Limit Enhancement",
+    "schemeType": "Central",
+    "category": "Agricultural Loans",
+    "applicantName": "Amarjeet Kushwaha",
+    "appliedDate": "30 Aug 2026",
+    "status": "Draft",
+    "statusLabel": "Draft (Incomplete)",
+    "trackingId": "KCC-DRAFT-091",
+    "amount": "Requested Limit: ₹2,50,000",
+    "remarks": "Draft saved. Need to upload latest land cultivation certificate and crop sowing plan.",
+    "timeline": [
+      { "title": "Application Drafted", "date": "30 Aug 2026, 06:00 PM", "completed": true, "current": true, "description": "Personal details and basic farm acreage entered." },
+      { "title": "Awaiting Submission", "date": "Pending", "completed": false, "description": "Upload remaining land documents to submit." },
+      { "title": "Bank Appraisal", "date": "Pending", "completed": false, "description": "Credit check and scale of finance calculation." },
+      { "title": "Sanction & Card Issue", "date": "Pending", "completed": false, "description": "RuPay Kisan card activation." }
+    ]
+  }
+]

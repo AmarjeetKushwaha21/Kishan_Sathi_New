@@ -1,0 +1,17 @@
+{
+  "companyId": "COMP-2026-09",
+  "companyName": "AgriCorp Global B2B Private Limited",
+  "businessEmail": "company@kishansathi.demo",
+  "phone": "+91 98765 00001",
+  "companyType": "Agri-Processor & Exporter",
+  "gstin": "07AABCA1234F1Z6",
+  "state": "Delhi",
+  "city": "New Delhi",
+  "pincode": "110001",
+  "address": "4th Floor, World Agri Tower, Barakhamba Road",
+  "accountStatus": "Verified Corporate Partner",
+  "registeredSince": "January 2024",
+  "totalPurchases": "₹12.8L",
+  "activeBids": 18,
+  "completedOrders": 42
+}

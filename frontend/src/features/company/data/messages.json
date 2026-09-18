@@ -1,0 +1,44 @@
+[
+  {
+    "id": "CONV-1",
+    "farmerName": "Gurpreet Singh",
+    "location": "Ludhiana, Punjab",
+    "crop": "Wheat (Sharbati)",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80",
+    "lastMessage": "We have loaded the first 250 quintals. Dispatching soon.",
+    "time": "10:45 AM",
+    "unreadCount": 1,
+    "messages": [
+      { "sender": "farmer", "text": "Namaste Sir, we received your bid of ₹2,380 for 500Q Wheat.", "time": "Yesterday" },
+      { "sender": "company", "text": "Namaste Gurpreet ji. Yes, we can confirm the pickup once quality moisture check is verified.", "time": "Yesterday" },
+      { "sender": "farmer", "text": "We have loaded the first 250 quintals. Dispatching soon.", "time": "10:45 AM" }
+    ]
+  },
+  {
+    "id": "CONV-2",
+    "farmerName": "Ramesh Verma",
+    "location": "Karnal, Haryana",
+    "crop": "Basmati Rice (1121)",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80",
+    "lastMessage": "Confirmed. Order PO-1042 invoice has been attached.",
+    "time": "Yesterday",
+    "unreadCount": 0,
+    "messages": [
+      { "sender": "company", "text": "Hello Ramesh ji, your Basmati batch has passed the Grade A standard test.", "time": "Yesterday" },
+      { "sender": "farmer", "text": "Confirmed. Order PO-1042 invoice has been attached.", "time": "Yesterday" }
+    ]
+  },
+  {
+    "id": "CONV-3",
+    "farmerName": "Bhavesh Patel",
+    "location": "Rajkot, Gujarat",
+    "crop": "Cotton (Shankar-6)",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&auto=format&fit=crop&q=80",
+    "lastMessage": "Can you revise the offer to ₹7,200 per quintal?",
+    "time": "Sep 15",
+    "unreadCount": 0,
+    "messages": [
+      { "sender": "farmer", "text": "Can you revise the offer to ₹7,200 per quintal?", "time": "Sep 15" }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "NOTIF-1",
+    "title": "Bid Accepted",
+    "description": "Your bid of ₹3,800/Q for Basmati Rice (1121) was accepted by Ramesh Verma.",
+    "time": "15 minutes ago",
+    "type": "bid",
+    "read": false
+  },
+  {
+    "id": "NOTIF-2",
+    "title": "Purchase Order Confirmed",
+    "description": "Purchase Order #PO-1042 has been confirmed and escrow initiated.",
+    "time": "2 hours ago",
+    "type": "order",
+    "read": false
+  },
+  {
+    "id": "NOTIF-3",
+    "title": "New Crop Listing in Punjab",
+    "description": "500 Quintal Sharbati Wheat listed near Ludhiana Mandi.",
+    "time": "5 hours ago",
+    "type": "listing",
+    "read": true
+  },
+  {
+    "id": "NOTIF-4",
+    "title": "Logistics Dispatch Update",
+    "description": "Shipment #SHP-901 has crossed Ambala Bypass and is on track for delivery tomorrow.",
+    "time": "1 day ago",
+    "type": "logistics",
+    "read": true
+  }
+]

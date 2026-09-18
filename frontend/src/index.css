@@ -1,0 +1,469 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth antialiased;
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-primary-50/50 font-sans text-gray-900 transition-colors duration-300;
+  }
+
+  html.dark body {
+    @apply bg-[#0a0f1e] text-gray-100;
+  }
+
+  ::selection {
+    @apply bg-primary-500/30 text-primary-900;
+  }
+
+  html.dark ::selection {
+    background: rgba(34, 197, 94, 0.35);
+    color: #dcfce7;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+    background-clip: content-box;
+  }
+
+  html.dark ::-webkit-scrollbar-thumb {
+    background: #334155;
+    background-clip: content-box;
+  }
+
+  html.dark ::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+    background-clip: content-box;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+  }
+
+  html.dark * {
+    scrollbar-color: #334155 transparent;
+  }
+}
+
+@layer components {
+  .container-app {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .input-base {
+    @apply w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-sm text-gray-900 placeholder-gray-400 outline-none transition focus:border-primary-500 focus:ring-4 focus:ring-primary-500/15 disabled:cursor-not-allowed disabled:bg-gray-100 disabled:text-gray-500;
+  }
+
+  .input-error {
+    @apply border-red-400 focus:border-red-500 focus:ring-red-500/15;
+  }
+
+  .label-base {
+    @apply mb-1.5 block text-sm font-medium text-gray-700;
+  }
+
+  .focus-ring {
+    @apply focus:outline-none focus-visible:ring-4 focus-visible:ring-primary-500/30 focus-visible:ring-offset-2 focus-visible:ring-offset-white;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* ---------------------------------- */
+/* Dark mode global overrides         */
+/* ---------------------------------- */
+html.dark .bg-white,
+html.dark .bg-white\/95,
+html.dark .bg-white\/90,
+html.dark .bg-white\/80,
+html.dark .bg-white\/70,
+html.dark .bg-white\/60,
+html.dark .bg-white\/50,
+html.dark .bg-white\/40,
+html.dark .bg-white\/30,
+html.dark .bg-white\/25,
+html.dark .bg-white\/20,
+html.dark .bg-white\/15,
+html.dark .bg-white\/10,
+html.dark .bg-white\/5 {
+  background-color: #111827;
+}
+
+html.dark .bg-white\/95 {
+  background-color: rgba(17, 24, 39, 0.95);
+}
+html.dark .bg-white\/90 {
+  background-color: rgba(17, 24, 39, 0.9);
+}
+html.dark .bg-white\/80 {
+  background-color: rgba(17, 24, 39, 0.8);
+}
+html.dark .bg-white\/70 {
+  background-color: rgba(17, 24, 39, 0.7);
+}
+html.dark .bg-white\/60 {
+  background-color: rgba(17, 24, 39, 0.6);
+}
+html.dark .bg-white\/50 {
+  background-color: rgba(17, 24, 39, 0.5);
+}
+html.dark .bg-white\/40 {
+  background-color: rgba(17, 24, 39, 0.4);
+}
+html.dark .bg-white\/30 {
+  background-color: rgba(17, 24, 39, 0.3);
+}
+html.dark .bg-white\/25 {
+  background-color: rgba(17, 24, 39, 0.25);
+}
+html.dark .bg-white\/20 {
+  background-color: rgba(17, 24, 39, 0.2);
+}
+html.dark .bg-white\/15 {
+  background-color: rgba(17, 24, 39, 0.15);
+}
+html.dark .bg-white\/10 {
+  background-color: rgba(17, 24, 39, 0.1);
+}
+html.dark .bg-white\/5 {
+  background-color: rgba(17, 24, 39, 0.05);
+}
+
+html.dark .bg-gray-50 {
+  background-color: #0f172a;
+}
+html.dark .bg-gray-50\/70 {
+  background-color: rgba(15, 23, 42, 0.7);
+}
+html.dark .bg-gray-50\/60 {
+  background-color: rgba(15, 23, 42, 0.6);
+}
+html.dark .bg-gray-100 {
+  background-color: #1c2434;
+}
+html.dark .bg-gray-200 {
+  background-color: #26334a;
+}
+html.dark .bg-gray-300 {
+  background-color: #374151;
+}
+html.dark .bg-gray-400 {
+  background-color: #4b5563;
+}
+html.dark .bg-gray-500 {
+  background-color: #6b7280;
+}
+html.dark .bg-gray-800 {
+  background-color: #111827;
+}
+html.dark .bg-gray-900 {
+  background-color: #0b1220;
+}
+html.dark .bg-gray-900\/60 {
+  background-color: rgba(11, 18, 32, 0.6);
+}
+
+html.dark .bg-primary-50,
+html.dark .bg-primary-50\/70,
+html.dark .bg-primary-50\/60,
+html.dark .bg-primary-50\/50,
+html.dark .bg-primary-50\/40 {
+  background-color: rgba(34, 197, 94, 0.08);
+}
+html.dark .bg-primary-100 {
+  background-color: rgba(34, 197, 94, 0.14);
+}
+html.dark .bg-primary-200 {
+  background-color: rgba(34, 197, 94, 0.22);
+}
+html.dark .bg-primary-300\/70,
+html.dark .bg-primary-300\/30,
+html.dark .bg-primary-300\/25 {
+  background-color: rgba(34, 197, 94, 0.18);
+}
+html.dark .bg-primary-500\/20 {
+  background-color: rgba(34, 197, 94, 0.2);
+}
+
+html.dark .bg-accent-50,
+html.dark .bg-accent-50\/50 {
+  background-color: rgba(251, 191, 36, 0.08);
+}
+html.dark .bg-accent-100 {
+  background-color: rgba(251, 191, 36, 0.14);
+}
+html.dark .bg-accent-300\/20,
+html.dark .bg-accent-400\/20,
+html.dark .bg-accent-400\/25,
+html.dark .bg-accent-500\/10 {
+  background-color: rgba(251, 191, 36, 0.16);
+}
+
+html.dark .bg-sky-50 {
+  background-color: rgba(14, 165, 233, 0.1);
+}
+html.dark .bg-sky-100 {
+  background-color: rgba(14, 165, 233, 0.16);
+}
+html.dark .bg-emerald-50 {
+  background-color: rgba(16, 185, 129, 0.1);
+}
+html.dark .bg-emerald-100 {
+  background-color: rgba(16, 185, 129, 0.16);
+}
+html.dark .bg-violet-50 {
+  background-color: rgba(139, 92, 246, 0.12);
+}
+html.dark .bg-violet-100 {
+  background-color: rgba(139, 92, 246, 0.18);
+}
+html.dark .bg-indigo-50 {
+  background-color: rgba(99, 102, 241, 0.12);
+}
+html.dark .bg-indigo-100 {
+  background-color: rgba(99, 102, 241, 0.18);
+}
+html.dark .bg-amber-50 {
+  background-color: rgba(245, 158, 11, 0.1);
+}
+html.dark .bg-amber-100 {
+  background-color: rgba(245, 158, 11, 0.16);
+}
+html.dark .bg-red-50 {
+  background-color: rgba(239, 68, 68, 0.1);
+}
+html.dark .bg-red-100 {
+  background-color: rgba(239, 68, 68, 0.16);
+}
+html.dark .bg-rose-50 {
+  background-color: rgba(244, 63, 94, 0.1);
+}
+
+html.dark .text-gray-900 {
+  color: #f3f4f6;
+}
+html.dark .text-gray-800 {
+  color: #e5e7eb;
+}
+html.dark .text-gray-700 {
+  color: #d1d5db;
+}
+html.dark .text-gray-600 {
+  color: #c3cad6;
+}
+html.dark .text-gray-500 {
+  color: #9aa3b2;
+}
+html.dark .text-gray-400 {
+  color: #8a93a4;
+}
+html.dark .text-gray-300 {
+  color: #6b7280;
+}
+html.dark .text-gray-200 {
+  color: #4b5563;
+}
+
+html.dark .text-primary-900 {
+  color: #bbf7d0;
+}
+html.dark .text-primary-800 {
+  color: #86efac;
+}
+html.dark .text-primary-700 {
+  color: #4ade80;
+}
+html.dark .text-primary-600 {
+  color: #4ade80;
+}
+html.dark .text-primary-500 {
+  color: #34d399;
+}
+
+html.dark .text-accent-700 {
+  color: #fbbf24;
+}
+html.dark .text-accent-600 {
+  color: #fbbf24;
+}
+html.dark .text-accent-500 {
+  color: #fbbf24;
+}
+
+html.dark .text-sky-600,
+html.dark .text-sky-700,
+html.dark .text-sky-800 {
+  color: #7dd3fc;
+}
+html.dark .text-sky-500 {
+  color: #38bdf8;
+}
+html.dark .text-emerald-600 {
+  color: #34d399;
+}
+html.dark .text-violet-600,
+html.dark .text-violet-700 {
+  color: #a78bfa;
+}
+html.dark .text-indigo-600 {
+  color: #818cf8;
+}
+html.dark .text-amber-600 {
+  color: #fbbf24;
+}
+html.dark .text-red-500,
+html.dark .text-red-600,
+html.dark .text-red-700 {
+  color: #f87171;
+}
+html.dark .text-red-800 {
+  color: #fca5a5;
+}
+html.dark .text-rose-500,
+html.dark .text-rose-600 {
+  color: #fb7185;
+}
+
+html.dark .border-gray-50 {
+  border-color: #16202f;
+}
+html.dark .border-gray-100 {
+  border-color: #1c2434;
+}
+html.dark .border-gray-200 {
+  border-color: #26334a;
+}
+html.dark .border-gray-300 {
+  border-color: #374151;
+}
+html.dark .border-primary-100 {
+  border-color: rgba(34, 197, 94, 0.18);
+}
+html.dark .border-primary-200,
+html.dark .border-primary-200\/60 {
+  border-color: rgba(34, 197, 94, 0.26);
+}
+html.dark .border-primary-300 {
+  border-color: rgba(34, 197, 94, 0.38);
+}
+html.dark .border-accent-100 {
+  border-color: rgba(251, 191, 36, 0.2);
+}
+html.dark .border-accent-300 {
+  border-color: rgba(251, 191, 36, 0.4);
+}
+
+html.dark .divide-gray-50 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #16202f;
+}
+html.dark .divide-gray-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #1c2434;
+}
+
+html.dark .shadow-soft {
+  box-shadow: 0 2px 12px -2px rgba(0, 0, 0, 0.55);
+}
+html.dark .shadow-card {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+}
+
+html.dark .focus-ring {
+  --tw-ring-offset-color: #0a0f1e;
+}
+
+html.dark .input-base {
+  background-color: #0f172a;
+  border-color: #374151;
+  color: #e5e7eb;
+}
+html.dark .input-base::placeholder {
+  color: #6b7280;
+}
+html.dark .input-base:disabled {
+  background-color: #1c2434;
+  color: #6b7280;
+}
+
+/* Recharts dark adjustments */
+html.dark .recharts-cartesian-grid line {
+  stroke: #26334a;
+}
+html.dark .recharts-default-tooltip {
+  background-color: #111827 !important;
+  border-color: #374151 !important;
+}
+html.dark .recharts-default-tooltip .recharts-tooltip-label {
+  color: #e5e7eb;
+}
+html.dark .recharts-default-tooltip .recharts-tooltip-item {
+  color: #9aa3b2 !important;
+}
+html.dark .recharts-legend-item-text {
+  color: #9aa3b2;
+}
+
+/* Skeleton shimmer */
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Hide number input arrows */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}

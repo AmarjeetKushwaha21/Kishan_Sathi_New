@@ -1,0 +1,29 @@
+[
+  {
+    "id": "t1",
+    "name": "Rajesh Yadav",
+    "role": "Farmer, Uttar Pradesh",
+    "quote": "Kishan Sathi helped me get the right crop advice and I increased my yield by 30%.",
+    "rating": 5,
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+    "badge": "Farmer"
+  },
+  {
+    "id": "t2",
+    "name": "Suresh Patil",
+    "role": "Farmer, Maharashtra",
+    "quote": "Now I can check mandi prices and sell at the right time. It really makes a difference.",
+    "rating": 5,
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+    "badge": "Farmer"
+  },
+  {
+    "id": "t3",
+    "name": "Manpreet Singh",
+    "role": "Buyer, Punjab",
+    "quote": "The expert consultation feature is very helpful. I got solution to my crop disease quickly.",
+    "rating": 5,
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+    "badge": "Buyer"
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "weather",
+    "titleKey": "weatherTitle",
+    "descKey": "weatherDesc",
+    "defaultTitle": "Weather Updates",
+    "defaultDesc": "Real-time weather forecasts for smarter decisions.",
+    "icon": "weather",
+    "bullets": [
+      "Live weather alerts",
+      "Rainfall predictions",
+      "Extreme weather warnings"
+    ],
+    "btnText": "Explore Weather →",
+    "link": "/dashboard/weather",
+    "image": "/assets/solutions/weather.jpg",
+    "weatherData": {
+      "temp": "28°C",
+      "condition": "Partly Cloudy",
+      "days": [
+        { "day": "Mon", "icon": "☀️" },
+        { "day": "Tue", "icon": "🌧️" },
+        { "day": "Wed", "icon": "🌧️" }
+      ]
+    }
+  },
+  {
+    "id": "advisor",
+    "titleKey": "cropAdvisorTitle",
+    "descKey": "cropAdvisorDesc",
+    "defaultTitle": "AI Crop Advisor",
+    "defaultDesc": "Get crop suggestions based on your soil, season and market demand.",
+    "icon": "sprout",
+    "bullets": [
+      "Personalized crop recommendations",
+      "Soil health analysis",
+      "Best season advisory"
+    ],
+    "btnText": "Try AI Advisor →",
+    "link": "/crop-recommendation",
+    "image": "/assets/solutions/advisor.jpg",
+    "badges": [
+      { "label": "Healthy Soil", "type": "soil" },
+      { "label": "Right Crop", "type": "leaf" },
+      { "label": "Higher Yield", "type": "chart" }
+    ]
+  },
+  {
+    "id": "direct-sell",
+    "titleKey": "directSellTitle",
+    "descKey": "directSellDesc",
+    "defaultTitle": "Direct Sell to Company",
+    "defaultDesc": "Connect directly with verified companies and buyers. Get better prices and grow without middlemen.",
+    "icon": "handshake",
+    "bullets": [
+      "Direct communication",
+      "Better prices",
+      "Trusted and verified buyers"
+    ],
+    "btnText": "Sell to Company →",
+    "link": "/marketplace",
+    "image": "/assets/solutions/direct-sell.jpg",
+    "badges": [
+      "No Middlemen",
+      "Better Price",
+      "Direct Trade"
+    ]
+  },
+  {
+    "id": "store",
+    "titleKey": "storeTitle",
+    "descKey": "storeDesc",
+    "defaultTitle": "Agriculture Store",
+    "defaultDesc": "Buy seeds, fertilizers, tools and more at the best prices.",
+    "icon": "store",
+    "bullets": [
+      "Quality products",
+      "Trusted suppliers",
+      "Fast and reliable delivery"
+    ],
+    "btnText": "Visit Store →",
+    "link": "/agriculture-store",
+    "image": "/assets/solutions/store.jpg"
+  },
+  {
+    "id": "schemes",
+    "titleKey": "schemesTitle",
+    "descKey": "schemesDesc",
+    "defaultTitle": "Government Schemes",
+    "defaultDesc": "Find and apply for central and state government schemes.",
+    "icon": "schemes",
+    "bullets": [
+      "Latest scheme updates",
+      "Easy application process",
+      "Eligibility guidance"
+    ],
+    "btnText": "Explore Schemes →",
+    "link": "/dashboard/central-schemes",
+    "image": "/assets/solutions/schemes.jpg",
+    "schemes": [
+      "PM-KISAN",
+      "Soil Health Card",
+      "Drip Irrigation",
+      "Crop Insurance"
+    ]
+  },
+  {
+    "id": "consultation",
+    "titleKey": "expertTitle",
+    "descKey": "expertDesc",
+    "defaultTitle": "Expert Consultation",
+    "defaultDesc": "Connect with agriculture experts for personalized advice.",
+    "icon": "expert",
+    "bullets": [
+      "Talk to certified experts",
+      "Get solutions to crop problems",
+      "Online & offline consultation"
+    ],
+    "btnText": "Connect Now →",
+    "link": "/expert-consultation",
+    "image": "/assets/solutions/expert.jpg",
+    "miniFeatures": [
+      { "name": "Crop Care", "icon": "leaf" },
+      { "name": "Soil Testing", "icon": "beaker" },
+      { "name": "Disease Control", "icon": "shield" },
+      { "name": "Better Yield", "icon": "chart" }
+    ]
+  }
+]

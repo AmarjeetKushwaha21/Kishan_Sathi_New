@@ -1,0 +1,42 @@
+[
+  {
+    "crop": "Wheat (Sharbati)",
+    "price": "₹2,400/Q",
+    "demand": "High Demand",
+    "supply": "Medium Supply",
+    "trend": "+4.2%",
+    "trendDirection": "up"
+  },
+  {
+    "crop": "Basmati Rice (1121)",
+    "price": "₹3,850/Q",
+    "demand": "Very High Demand",
+    "supply": "Medium Supply",
+    "trend": "+6.5%",
+    "trendDirection": "up"
+  },
+  {
+    "crop": "Cotton (Shankar-6)",
+    "price": "₹7,200/Q",
+    "demand": "Steady Demand",
+    "supply": "Low Supply",
+    "trend": "-0.8%",
+    "trendDirection": "down"
+  },
+  {
+    "crop": "Soybean (Yellow)",
+    "price": "₹4,600/Q",
+    "demand": "Medium Demand",
+    "supply": "High Supply",
+    "trend": "+1.8%",
+    "trendDirection": "up"
+  },
+  {
+    "crop": "Mustard (Pusa Bold)",
+    "price": "₹5,350/Q",
+    "demand": "High Demand",
+    "supply": "Steady Supply",
+    "trend": "+3.1%",
+    "trendDirection": "up"
+  }
+]
