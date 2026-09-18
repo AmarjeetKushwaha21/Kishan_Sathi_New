@@ -7,6 +7,8 @@ import connectDB, { isDbConnected } from './config/db.js';
 import authRoutes from './routes/authRoutes.js';
 import farmerRoutes from './routes/farmerRoutes.js';
 import companyRoutes from './routes/companyRoutes.js';
+import assistantRoutes from './routes/assistantRoutes.js';
+import mandiRoutes from './routes/mandiRoutes.js';
 import errorHandler from './middleware/errorHandler.js';
 
 dotenv.config();
@@ -108,6 +110,8 @@ app.get('/', (req, res) => {
 app.use('/api/auth', authRoutes);
 app.use('/api/farmer', farmerRoutes);
 app.use('/api/company', companyRoutes);
+app.use('/api/assistant', assistantRoutes);
+app.use('/api/mandi', mandiRoutes);
 
 // 404 Fallback route handler
 app.use((req, res) => {
