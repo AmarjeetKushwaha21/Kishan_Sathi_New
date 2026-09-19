@@ -71,6 +71,7 @@ const CartPage = lazy(() => import('@/pages/bazaar/CartPage'));
 const CheckoutPage = lazy(() => import('@/pages/bazaar/CheckoutPage'));
 const OrderSuccessPage = lazy(() => import('@/pages/bazaar/OrderSuccessPage'));
 const MyOrders = lazy(() => import('@/pages/bazaar/MyOrders'));
+const NearbyStoreDetails = lazy(() => import('@/pages/bazaar/NearbyStoreDetails'));
 
 const MyListings = lazy(() => import('@/pages/marketplace/MyListings'));
 const SellCrop = lazy(() => import('@/pages/marketplace/SellCrop'));
@@ -331,6 +332,9 @@ export default function AppRoutes() {
                 <Route path="/dashboard/bazaar/checkout" element={<PageSuspense><CheckoutPage /></PageSuspense>} />
                 <Route path="/dashboard/bazaar/order-success/:orderId" element={<PageSuspense><OrderSuccessPage /></PageSuspense>} />
                 <Route path="/dashboard/bazaar/my-orders" element={<PageSuspense><MyOrders /></PageSuspense>} />
+                <Route path="/dashboard/bazaar/nearby/:storeId" element={<PageSuspense><NearbyStoreDetails /></PageSuspense>} />
+                <Route path="/dashboard/store" element={<Navigate to="/dashboard/bazaar" replace />} />
+                <Route path="/dashboard/store/nearby/:storeId" element={<Navigate to="/dashboard/bazaar/nearby/:storeId" replace />} />
               </Route>
               <Route element={<ProviderRoute provider={MarketplaceProvider} />}>
                 <Route path="/dashboard/marketplace" element={<Navigate to="/dashboard/marketplace/listings" replace />} />

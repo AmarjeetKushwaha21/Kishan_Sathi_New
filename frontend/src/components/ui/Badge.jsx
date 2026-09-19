@@ -6,6 +6,9 @@ const VARIANTS = {
   accent: 'bg-accent-100 text-accent-800',
   danger: 'bg-red-100 text-red-700',
   outline: 'border border-primary-200 bg-white text-primary-700',
+  info: 'bg-sky-100 text-sky-800',
+  success: 'bg-emerald-100 text-emerald-800',
+  warning: 'bg-amber-100 text-amber-800',
 };
 
 const SIZES = {

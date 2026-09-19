@@ -17,6 +17,19 @@ export default defineConfig({
         target: 'http://localhost:5000',
         changeOrigin: true,
         secure: false,
+        configure: (proxy) => {
+          proxy.on('error', (_err, _req, res) => {
+            if (!res.headersSent) {
+              res.writeHead(503, { 'Content-Type': 'application/json' });
+              res.end(
+                JSON.stringify({
+                  success: false,
+                  message: 'Cannot reach backend server on port 5000. Please ensure the backend server is running.',
+                })
+              );
+            }
+          });
+        },
       },
     },
   },

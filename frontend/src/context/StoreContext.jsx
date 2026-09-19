@@ -51,9 +51,15 @@ function defaultCart() {
 }
 
 export function StoreProvider({ children }) {
-  const [wishlist, setWishlist] = useState(() => readStorage(KEYS.wishlist, []));
+  const [wishlist, setWishlist] = useState(() => {
+    const stored = readStorage(KEYS.wishlist, []);
+    return Array.isArray(stored) ? stored : [];
+  });
   const [cart, setCart] = useState(defaultCart);
-  const [orders, setOrders] = useState(() => readStorage(KEYS.orders, STORE_SEED_ORDERS));
+  const [orders, setOrders] = useState(() => {
+    const stored = readStorage(KEYS.orders, STORE_SEED_ORDERS);
+    return Array.isArray(stored) ? stored : STORE_SEED_ORDERS;
+  });
   const [filters, setFilters] = useState(INITIAL_FILTERS);
 
   useEffect(() => {

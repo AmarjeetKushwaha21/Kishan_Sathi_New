@@ -24,6 +24,7 @@ export default function CompanyLogin() {
   const {
     register,
     handleSubmit,
+    setValue,
     formState: { errors, isSubmitting },
   } = useForm({
     defaultValues: {
@@ -31,6 +32,12 @@ export default function CompanyLogin() {
       password: '',
     },
   });
+
+  function fillDemoCompany() {
+    setValue('email', 'company@kishansathi.demo', { shouldValidate: true });
+    setValue('password', 'company123', { shouldValidate: true });
+    setServerError(null);
+  }
 
   async function onSubmit(data) {
     setServerError(null);
@@ -64,6 +71,21 @@ export default function CompanyLogin() {
           <p className="mt-2 text-xs leading-relaxed text-gray-500 dark:text-gray-400 sm:text-sm">
             Access crop procurement, direct mandi bids, orders, and your agricultural supply chain.
           </p>
+
+          {/* Quick Demo Access Bar */}
+          <div className="mt-4 flex items-center justify-between gap-2 rounded-2xl border border-primary-200/80 bg-primary-50/60 p-2.5 text-xs text-primary-900 dark:border-primary-900/50 dark:bg-primary-950/40 dark:text-primary-200">
+            <div className="flex flex-col text-left">
+              <span className="font-semibold text-primary-800 dark:text-primary-300">Demo Corporate Credentials:</span>
+              <span className="text-[11px] text-primary-600 dark:text-primary-400">company@kishansathi.demo &bull; company123</span>
+            </div>
+            <button
+              type="button"
+              onClick={fillDemoCompany}
+              className="rounded-xl bg-primary-600 px-2.5 py-1 text-xs font-semibold text-white transition hover:bg-primary-700 active:scale-95"
+            >
+              Fill Demo
+            </button>
+          </div>
         </div>
 
         {serverError && <Alert variant="error">{serverError}</Alert>}

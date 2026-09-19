@@ -2,7 +2,7 @@ import { FiAlertTriangle } from 'react-icons/fi';
 
 import Button from '@/components/ui/Button';
 
-export default function ErrorFallback({ reset }) {
+export default function ErrorFallback({ error, reset }) {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-primary-50/50 px-6 text-center dark:bg-[#0a0f1e]">
       <span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-red-50 text-3xl text-red-500 ring-1 ring-inset ring-red-500/10 dark:bg-red-500/10">
@@ -15,6 +15,16 @@ export default function ErrorFallback({ reset }) {
         An unexpected error occurred while rendering this page. Try reloading, or head back to the
         dashboard.
       </p>
+
+      {error && (
+        <div className="mt-4 max-w-2xl overflow-auto rounded-xl border border-red-200 bg-red-50/80 p-4 text-left text-xs font-mono text-red-800 dark:border-red-900/50 dark:bg-red-950/40 dark:text-red-300">
+          <p className="font-bold">{error.name}: {error.message}</p>
+          {error.stack && (
+            <pre className="mt-2 max-h-48 overflow-auto text-[11px] opacity-80">{error.stack}</pre>
+          )}
+        </div>
+      )}
+
       <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
         <Button leftIcon={FiAlertTriangle} onClick={reset}>
           Reload page

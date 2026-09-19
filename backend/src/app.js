@@ -62,7 +62,7 @@ if (process.env.NODE_ENV !== 'production') {
   app.use(morgan('dev'));
 }
 
-// Ensure MongoDB connection for every request in serverless environment
+// Ensure MongoDB connection for incoming requests
 app.use(async (req, res, next) => {
   // Allow root and health check to respond immediately
   if (req.path === '/' || req.path === '/api/health') {
@@ -70,12 +70,16 @@ app.use(async (req, res, next) => {
   }
 
   try {
-    if (process.env.MONGO_URI) {
+    if (process.env.MONGO_URI && !isDbConnected()) {
       await connectDB();
     }
     next();
   } catch (err) {
-    console.error('[Database Middleware Error]:', err.message);
+    console.warn('[Database Middleware Warning]:', err.message);
+    // For auth endpoints, allow request to proceed so controllers can offer demo/offline fallback
+    if (req.path.startsWith('/api/auth')) {
+      return next();
+    }
     res.status(503).json({
       success: false,
       message: 'Database connection is temporarily unavailable. Please verify MongoDB Atlas connection string and Network Access (IP Whitelist 0.0.0.0/0).',

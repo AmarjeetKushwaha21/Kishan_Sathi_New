@@ -10,10 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 async function startServer() {
   try {
-    // Attempt MongoDB connection (graceful fallback if local Mongo is not running)
-    await connectDB();
-
-    // Start Express listener
+    // Start Express listener first so the server is always available
     const server = app.listen(PORT, () => {
       console.log('====================================================');
       console.log(`🌾 Kishan Sathi Backend Server running in [${process.env.NODE_ENV || 'development'}] mode`);
@@ -22,6 +19,14 @@ async function startServer() {
       console.log(`💻 Client URL:   ${process.env.CLIENT_URL || 'http://localhost:5173'}`);
       console.log('====================================================');
     });
+
+    // Attempt MongoDB connection gracefully without crashing server
+    try {
+      await connectDB();
+    } catch (dbErr) {
+      console.warn('⚠️ [MongoDB] Initial connection deferred or failed:', dbErr.message);
+      console.warn('ℹ️ [MongoDB] Server remains online and will retry connecting on incoming requests.');
+    }
 
     // Graceful shutdown handlers
     const shutdown = (signal) => {
@@ -40,7 +45,6 @@ async function startServer() {
     });
   } catch (error) {
     console.error('[Server Error] Failed to start server:', error);
-    process.exit(1);
   }
 }
 
